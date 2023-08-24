@@ -1,0 +1,146 @@
+/* import "antd/dist/antd.min.css";  */
+
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.item-button button{
+
+
+    margin-top: 20px;
+    width :200px;
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+.cart-item {
+
+padding-left: 20px ;
+padding-right: 30px;
+cursor: pointer;
+}
+
+.cart-item p{
+
+margin-top: 8px;
+font-weight: bold;
+}
+.spinner{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+}
+.spinner-border{
+height: 100px;
+width: 100px;
+
+
+}
+
+.register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+
+.register input{
+
+    width: 400px;
+}
+
+.register-form{
+    background-color: grey;
+    padding: 20px;
+    margin-right: 20px;
+    text-align: center;
+
+
+
+}
+.register-form h3{
+
+    text-align: center;
+    background-color: rgb(127, 182, 255);
+    margin-right: 200%;
+
+}
+.item{
+    width: 24mm;
+}
+.itemtext{
+
+
+    font-size: 0.9em;
+}
+.service{
+
+    border-bottom: 1px solid wheat;
+}
+#legalcopy{
+
+margin-top: 5mm;
+}
+.tabletitle{
+
+    font-size: 0.9em;
+    background-color: wheat;
+}
+.title{
+
+
+    float: right;
+}
+
+.title p{
+    text-align: right;
+}
+table{
+    width: 100%;
+    padding: 4mm;
+    border-collapse: collapse;
+}
+#invoice-order{
+    
+    margin: 0 auto;
+    background-color: wheat;
+}
+h1{
+    font-size: 1.5em;
+}
+h2{
+
+    font-size: 0.9rem;
+}
+h3{
+
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2em;
+
+}
+#top,
+#bot,
+#mid{
+
+    border-bottom: 1px solid wheat;
+}
+#top {
+
+    min-height: 100px;
+}
+#bot {
+
+    min-height: 50px;
+}
+.info{
+
+    display: block;
+}
